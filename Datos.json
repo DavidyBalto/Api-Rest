@@ -1,0 +1,197 @@
+[
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "birthDate": "1990-01-01",
+    "contactInfo": [
+      "john.doe@example.com",
+      "555-1234"
+    ],
+    "address": [
+      "123 Main St, Anytown, CA, 90210",
+      "456 Corporate Blvd, Bigcity, CA, 90211"
+    ]
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "birthDate": "1985-05-15",
+    "contactInfo": [
+      "jane.smith@example.com",
+      "555-1234"
+    ],
+    "address": [
+      "456 Oak Ave, Othertown, TX, 73301",
+      "789 Business Rd, Megacity, TX, 73302"
+    ]
+  },
+  {
+    "firstName": "Alice",
+    "lastName": "Johnson",
+    "birthDate": "1992-09-23",
+    "contactInfo": [
+      "alice.johnson@example.com",
+      "555-8765"
+    ],
+    "address": [
+      "789 Pine Rd, Sometown, FL, 33101",
+      "1010 Industrial Blvd, Bigcity, FL, 33102"
+    ]
+  },
+  {
+    "firstName": "Bob",
+    "lastName": "Brown",
+    "birthDate": "1978-11-30",
+    "contactInfo": [
+      "bob.brown@example.com",
+      "555-4321"
+    ],
+    "address": [
+      "101 Maple Ln, Anycity, NY, 10001",
+      "202 Office Park, Uptown, NY, 10002"
+    ]
+  },
+  {
+    "firstName": "Charlie",
+    "lastName": "Davis",
+    "birthDate": "2000-07-07",
+    "contactInfo": [
+      "charlie.davis@example.com",
+      "555-7890"
+    ],
+    "address": [
+      "202 Birch Blvd, Newtown, WA, 98101",
+      "303 Tech St, Silicon Valley, WA, 98102"
+    ]
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Wilson",
+    "birthDate": "1995-02-14",
+    "contactInfo": [
+      "emily.wilson@example.com",
+      "555-2345"
+    ],
+    "address": [
+      "303 Cedar St, Oldtown, IL, 60601",
+      "404 Business Ave, Downtown, IL, 60602"
+    ]
+  },
+  {
+    "firstName": "David",
+    "lastName": "Martinez",
+    "birthDate": "1988-04-12",
+    "contactInfo": [
+      "david.martinez@example.com",
+      "555-6789"
+    ],
+    "address": [
+      "404 Elm Dr, Smalltown, AZ, 85001",
+      "505 Corporate Way, Metropolis, AZ, 85002"
+    ]
+  },
+  {
+    "firstName": "Sophia",
+    "lastName": "Garcia",
+    "birthDate": "1991-08-20",
+    "contactInfo": [
+      "sophia.garcia@example.com",
+      "555-3456"
+    ],
+    "address": [
+      "505 Spruce Ct, Middletown, CO, 80201",
+      "606 High St, Uptown, CO, 80202"
+    ]
+  },
+  {
+    "firstName": "James",
+    "lastName": "Taylor",
+    "birthDate": "1983-12-25",
+    "contactInfo": [
+      "james.taylor@example.com",
+      "555-9012"
+    ],
+    "address": [
+      "606 Fir Pl, Bigcity, OH, 43201",
+      "707 Business Plaza, Downtown, OH, 43202"
+    ]
+  },
+  {
+    "firstName": "Mia",
+    "lastName": "Moore",
+    "birthDate": "1999-06-30",
+    "contactInfo": [
+      "mia.moore@example.com",
+      "555-6784"
+    ],
+    "address": [
+      "707 Redwood Dr, Littletown, MI, 48201",
+      "808 Business Loop, Bigcity, MI, 48202"
+    ]
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Anderson",
+    "birthDate": "1975-03-10",
+    "contactInfo": [
+      "michael.anderson@example.com",
+      "555-5432"
+    ],
+    "address": [
+      "808 Pinecone St, Treetown, GA, 30301",
+      "909 Corporate Blvd, Bigcity, GA, 30302"
+    ]
+  },
+  {
+    "firstName": "Olivia",
+    "lastName": "Thomas",
+    "birthDate": "1987-10-08",
+    "contactInfo": [
+      "olivia.thomas@example.com",
+      "555-6543"
+    ],
+    "address": [
+      "909 Acorn Rd, Beachcity, FL, 33101",
+      "1010 Business Blvd, Uptown, FL, 33102"
+    ]
+  },
+  {
+    "firstName": "Daniel",
+    "lastName": "Hernandez",
+    "birthDate": "1993-01-18",
+    "contactInfo": [
+      "daniel.hernandez@example.com",
+      "555-2109"
+    ],
+    "address": [
+      "1010 Walnut St, Hilltown, NC, 27601",
+      "1111 Business Center, Midtown, NC, 27602"
+    ]
+  },
+  {
+    "firstName": "Isabella",
+    "lastName": "Lopez",
+    "birthDate": "1996-09-15",
+    "contactInfo": [
+      "isabella.lopez@example.com",
+      "555-3210"
+    ],
+    "address": [
+      "1111 Chestnut St, Rivertown, VA, 23201",
+      "1212 Business Dr, Bigcity, VA, 23202"
+    ]
+  },
+  {
+    "firstName": "William",
+    "lastName": "Martin",
+    "birthDate": "1980-11-05",
+    "contactInfo": [
+      "william.martin@example.com",
+      "555-9876"
+    ],
+    "address": [
+      "1212 Maple St, Rocktown, PA, 19101",
+      "1313 Business Park, Cityville, PA, 19102"
+    ]
+  }
+]

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sitio web</title>
+  <style>
+    article {
+      display: flex;
+      border: 2px solid black;
+      margin-bottom: 5px;
+    }
+
+    article> :first-child {
+      height: auto;
+      width: 300px;
+      background-color: aqua;
+    }
+
+    div> :nth-child(1) {
+      color: brown;
+      font-size: 30px;
+      margin: 0;
+      margin-left: 10px;
+    }
+
+    p {
+      margin-left: 10px;
+    }
+  </style>
+  <script type="module">
+    fetch('http://localhost:1234/person')
+      .then(res => res.json())
+      .then(person => {
+        const html = person.map(p => {
+          return `
+          <article data-id=${p.firstName}>
+            <div>Imagen :v</div>
+            <div>
+            <p>${p.firstName} ${p.lastName}</p>
+            <p>Cumpleaños: ${p.birthDate}</p>
+            <p>Datos de contacto</p>
+            <ul>
+              <li>${p.contactInfo[0]}</li><li>${p.contactInfo[1]}</li>
+            </ul>
+            <p>Direcciones</p>
+            <ul>
+              <li>${p.address[0]}</li><li>${p.address[1]}</li>
+            </ul>
+            <button>Borrar</button>
+            </div>
+          </article>`
+        }).join('')
+        document.querySelector('main').innerHTML = html
+
+        document.addEventListener('click', e => {
+          if (e.target.matches('button')) {
+            const article = e.target.closest('article')
+            const id = article.dataset.id
+            fetch(`http://localhost:1234/person/${id}`, {
+              method: 'DELETE'
+            })
+              .then(res => {
+                if (res.ok) {
+                  article.remove()
+                }
+              })
+          }
+        })
+      })
+  </script>
+</head>
+
+<body>
+  <main></main>
+</body>
+
+</html>

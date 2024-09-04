@@ -1,0 +1,39 @@
+### Primera request
+GET http://localhost:1234/person
+
+###Buecar una persona cuyo primer nombre es /X
+GET http://localhost:1234/person/Juan
+
+###Buscar personas cuyos celulares sean ?contacInfo=X
+GET http://localhost:1234/person/?contactInfo=555-1234
+
+###Crear un nuevo codigo o lo que sea
+POST http://localhost:1234/person
+Content-Type: application/json
+
+{
+  "firstName": "Juan",
+  "lastName": "Pérez",
+  "birthDate": "1985-03-15",
+  "contactInfo": [
+    "juan.perez@example.com"
+    ],
+  "address": [
+    "Calle Mayor 10",
+    "Madrid",
+    "Spain"
+  ]
+}
+
+### Actualizar una persona
+PATCH http://localhost:1234/person/John
+Content-Type: application/json
+
+{
+  "lastName": "Pérez",
+  "birthDate": "1985-03-15",
+  "contactInfo": [
+      "jane.smith@example.com",
+      "555-8899"
+    ]
+}
