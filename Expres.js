@@ -8,7 +8,7 @@ const serv = express()
 const Datos = require('./Datos.json') // En claissic JS se puede importar json sin exportar o cosas raras
 
 const Crypto = require('node:crypto')
-const { Validar, ValidarOpcional } = require('./Validador')
+const { Validar, ValidarOpcional } = require('./Esquemas/Validador')
 
 // Nota>>> Req.params otiene los parametros obligatorios de url osea :valor del dato
 // Mientras Req.querry obtiene parametros opcionales ?variable=valor que afectaran
